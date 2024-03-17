@@ -33,8 +33,6 @@ int main(int argc, char* argv[]) {
         env_prefix[0] = '_';
     }
 
-    std::cout << "env_prefix = " << env_prefix << std::endl;
-
     auto const output_option = env_prefix + "_ARG_INSPECTOR_OUTPUT";
     auto const executable_option = env_prefix + "_ARG_INSPECTOR_EXECUTABLE";
 
